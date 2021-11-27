@@ -13,4 +13,4 @@ def test_amount_taxis():
     taxi.get_response()
     taxi.taxi_analytics()
     assert taxi.available_taxi_count > 0
-    assert taxi.available_taxi_count < 100000
+    assert taxi.available_taxi_count < 10000
