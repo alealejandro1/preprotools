@@ -1,2 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+from preprotools.available_taxi import AvailableTaxis
+from preprotools.temperature import Temperature
+from preprotools.weather_forecast import WeatherForecast
+
+taxis = AvailableTaxis()
+temp = Temperature()
+weather_forecast = WeatherForecast()
+
+taxis.get_response()
+taxis.taxi_analytics()
+taxis.get_available_taxi_count()
+
+# temp.get_response()
+# weather_forecast.get_response()
