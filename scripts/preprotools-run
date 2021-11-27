@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
 from preprotools.available_taxi import AvailableTaxis
 from preprotools.temperature import Temperature
 from preprotools.weather_forecast import WeatherForecast
