@@ -36,8 +36,7 @@ class AvailableTaxis:
         taxi_coordinates_df= pd.DataFrame.from_dict(self.response['features']
                                                     [0]['geometry']['coordinates'])
         taxi_coordinates_df=  taxi_coordinates_df.rename(columns = {0:'lon',1:'lat'})
-        # self.available_taxi_count = taxi_coordinates_df.shape[0]
-        self.available_taxi_count = -100
+        self.available_taxi_count = taxi_coordinates_df.shape[0]
         self.updated_taxi_df = taxi_coordinates_df
 
     def get_available_taxi_count(self):
