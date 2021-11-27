@@ -5,8 +5,8 @@ from preprotools.temperature import Temperature
 from preprotools.weather_forecast import WeatherForecast
 
 taxis = AvailableTaxis()
-temp = Temperature()
-weather_forecast = WeatherForecast()
+# temp = Temperature()
+# weather_forecast = WeatherForecast()
 
 taxis.get_response()
 taxis.taxi_analytics()
